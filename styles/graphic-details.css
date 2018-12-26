@@ -1,0 +1,28 @@
+.graphic_details {
+  padding: 0rem .3333rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.graphic_details .desc {
+  width: 100%;
+padding: .3666rem 0rem;
+}
+.graphic_details .desc .desc_p{
+  font-size: .4rem;
+  color: rgb(102,102,102);
+  line-height: .55rem;
+}
+.graphic_details .itemDetailImgs {
+  width: 100%;
+}
+.graphic_details .itemDetailImgs .itemDetailImgs_item {
+  width: 100%;
+  padding-bottom: .2666rem;
+}
+.graphic_details .itemDetailImgs .itemDetailImgs_item:last-child {
+  padding-bottom: 0rem;
+}
+.graphic_details .itemDetailImgs .itemDetailImgs_item>img {
+  width: 100%;
+}
